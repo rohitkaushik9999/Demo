@@ -14,6 +14,7 @@ public class DataController {
 	@RequestMapping("student")
 	public @ResponseBody
 	Student getStudent() {
+		System.out.println("-------->jai ho<--------");
 		return new Student(23, "meghna", "Naidu", "meghna@gmail.com",
 				"8978767878");
 	}
