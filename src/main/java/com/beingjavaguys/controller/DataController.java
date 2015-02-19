@@ -23,7 +23,7 @@ public class DataController {
 	public @ResponseBody
 	List<Student> getStudentList() {
 		System.out.println("hellooooooooooooooooooooooooooooo");
-		System.out.println("----------------->rohit kaushik");
+		System.out.println("----------------->rohit kaushik<-----------------");
 		List<Student> studentList = new ArrayList<Student>();
 		studentList.add(new Student(23, "Meghna", "Naidu", "meghna@gmail.com",
 				"8978767878"));
