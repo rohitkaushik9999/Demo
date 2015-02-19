@@ -22,7 +22,7 @@ public class DataController {
 	@RequestMapping("studentlist")
 	public @ResponseBody
 	List<Student> getStudentList() {
-		System.out.println("hellooooooooooooooooooooooooooooo");
+		System.out.println("hellooooooooooooooooooooooooooooo"+"rohit kaushik");
 		System.out.println("----------------->rohit kaushik<-----------------");
 		List<Student> studentList = new ArrayList<Student>();
 		studentList.add(new Student(23, "Meghna", "Naidu", "meghna@gmail.com",
