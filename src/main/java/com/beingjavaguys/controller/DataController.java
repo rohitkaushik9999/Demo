@@ -21,6 +21,7 @@ public class DataController {
 	@RequestMapping("studentlist")
 	public @ResponseBody
 	List<Student> getStudentList() {
+		System.out.println("hellooooooooooooooooooooooooooooo");
 		List<Student> studentList = new ArrayList<Student>();
 		studentList.add(new Student(23, "Meghna", "Naidu", "meghna@gmail.com",
 				"8978767878"));
