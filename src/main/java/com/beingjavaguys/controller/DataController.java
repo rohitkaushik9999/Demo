@@ -14,7 +14,15 @@ public class DataController {
 	@RequestMapping("student")
 	public @ResponseBody
 	Student getStudent() {
-		System.out.println("-------->jai ho<--------");
+		System.out.println("--------> <----------");
+		System.out.println("--------> <----------");
+		System.out.println("--------> <----------");
+		System.out.println("--------> <----------");
+		System.out.println("--------> <----------");
+		System.out.println("--------> <----------");
+		System.out.println("--------> <----------");
+		System.out.println("--------> <----------");
+		System.out.println("--------> <----------");
 		return new Student(23, "meghna", "Naidu", "meghna@gmail.com",
 				"8978767878");
 	}
